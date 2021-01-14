@@ -1,0 +1,88 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+}
+
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.todoForm {
+    width: 650px;
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+    background-color: #e6f0e6;
+}
+
+.form {
+    margin: 0 auto;
+}
+
+.left-column {
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.todos {
+    display: flex;
+    flex-direction: column;
+}
+
+.todos-list {
+    font-size: 13px;
+}
+
+.createTodo {
+    width: 250px;
+    height: 30px;
+    background-color: white;
+    list-style: none;
+    margin-bottom: 15px;
+    padding-top: 5px;
+    padding-left: 5px;
+    font-size: 14px;
+}
+
+.right-column {
+    width: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.title-text {
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+.input {
+    width: 250px;
+    height: 30px;
+    margin-bottom: 10px;
+    outline: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    font-size: 14px;
+}
+
+.addTodo {
+    margin-top: 15px;
+    background-color: green;
+    padding: 11px 28px;
+    color: white;
+}
+
+.completedTodo {
+    text-decoration-line: line-through;
+}
